@@ -1,15 +1,12 @@
 {
   "expo": {
+    "name": "DiabeticApp",
+    "slug": "diabetic-app",
     "web": {
       "build": {
         "babel": {
           "include": ["react-native-paper"]
         }
-      },
-      "manifest": {
-        "theme_color": "#FFFFFF",
-        "background_color": "#FFFFFF",
-        "display": "standalone"
       }
     }
   }
