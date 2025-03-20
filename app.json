@@ -1,12 +1,41 @@
 {
   "expo": {
-    "name": "DiabeticApp",
-    "slug": "diabetic-app",
+    "name": "Diabetic Helper",
+    "slug": "diabetic-helper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.diabetichelper"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.yourcompany.diabetichelper"
+    },
     "web": {
+      "favicon": "./assets/favicon.png",
       "build": {
         "babel": {
           "include": ["react-native-paper"]
         }
+      },
+      "manifest": {
+        "theme_color": "#2A9D8F",
+        "background_color": "#F8F9FA",
+        "display": "standalone"
       }
     }
   }
